@@ -18,7 +18,7 @@ const Cast = lazy(() => import('../../pages/Cast'));
 const Reviews = lazy(() => import('../../pages/Reviews'));
 const NotFound = lazy(() => import('../../pages/NotFound'));
 
-export const App = () => {
+const App = () => {
   return (
     <>
       <Header />
@@ -37,3 +37,4 @@ export const App = () => {
     </>
   );
 };
+export default App;
